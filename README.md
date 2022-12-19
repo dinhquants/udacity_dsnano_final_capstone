@@ -1,6 +1,6 @@
 # Capstone Project: Sparkify
 
-## :con Table of contents
+## 🏗️ Table of contents
 
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
