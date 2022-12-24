@@ -25,7 +25,7 @@ There is one notebooks available here to showcase work related to the above ques
 
 ## Results<a name="results"></a>
 
-The main result of analysis dataset can be found at the blog post available [here](https://medium.com/@dinhnda2021/wisconsin-breast-cancer-dataset-analysis-2db2a51bde9d).
+The main result of analysis dataset can be found at the blog post available [here](https://medium.com/@dinhnda2021/predicting-churn-rate-to-save-the-business-1a70c8f6b0db).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
