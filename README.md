@@ -1,4 +1,4 @@
-# Capstone Project: Sparkify
+# Capstone Project: Predict Churn with small data set
 
 ## 🏗️ Table of contents
 
@@ -10,15 +10,12 @@
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+- Install PySpark
+- Run the notebook `Sparkify.ipynb` on the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I got interested in cancer research so  to better understand:
-
-1. Which features are most helpful in predicting malignant or benign cancer? Which features are not helpful in predicting malignant or benign cancer?
-2. How do different models predict cancer diagnosis?
-3. What is the best models predict?
+Predicting churn rates is a challenging and common situation that data scientists and analysts regularly encounter in any customer-facing business. If you can accurately identify these customers before they leave, your business can offer them discounts and incentives, potentially saving your business in revenue. Additionally, the ability to efficiently manipulate large datasets with Spark is one of the highest-demand skills in the field of data.
 
 The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
 
@@ -32,4 +29,4 @@ The main result of analysis dataset can be found at the blog post available [her
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to UCI Machine Learning Repository for the data [here](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)). You can find the Licensing for the data and other descriptive information at the Kaggle link available [here](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).  Otherwise, feel free to use the code here as you would like! 
+This project has utilized mini subset (128MB) of the full dataset available (12GB). Optionally, you can choose to deploy a Spark cluster on the cloud using AWS or IBM Cloud to analyze a larger amount of data. Currently we have the full 12GB [dataset](http://udacity-dsnd.s3.amazonaws.com/sparkify/mini_sparkify_event_data.json) available to you if you use AWS. If you use IBM, you can download a medium sized dataset to upload to your cluster.  
